@@ -1,4 +1,5 @@
 AOS.init() 
+AOS.refreshHard()
 function initMap(){let e;e=new google.maps.Map(document.getElementById("map"),{center:{lat:-23.599225,lng:-46.6366589},zoom:18})}
 
 const modal = document.querySelector("#myModal")
